@@ -189,7 +189,7 @@ x-tx-manager-def:
             --url=http://$$(hostname -i):9000/ \
             --port=9000 \
             --socket=$${DDIR}/tm.ipc \
-            --othernodes=http://172.16.239.101:9000/,http://172.16.239.102:9000/,http://172.16.239.103:9000/,http://172.16.239.104:9000/,http://172.16.239.105:9000/ \
+            --othernodes=http://172.16.239.101:9000/,http://172.16.239.102:9000/,http://172.16.239.103:9000/ \
             --publickeys=/examples/keys/tm$${NODE_ID}.pub \
             --privatekeys=/examples/keys/tm$${NODE_ID}.key \
             --storage=$${DDIR} \
