@@ -2,6 +2,8 @@
 
 This repository contains setup examples for Quorum Platform.
 
+Tutorial: Geth deploy contract: https://www.atmarkit.co.jp/ait/articles/1809/06/news001.html
+
 Current examples include:
 * [7nodes](examples/7nodes): Starts up a fully-functioning Quorum environment consisting of 7 independent nodes. From this example one can test consensus, privacy, and all the expected functionality of an Ethereum platform.
 
