@@ -240,6 +240,9 @@ services:
     networks:
       quorum-examples-net:
         ipv4_address: 172.16.239.11
+    logging:
+      options:
+        max-size: 50m
   txmanager1:
     << : *tx-manager-def
     hostname: txmanager1
@@ -270,6 +273,9 @@ services:
     networks:
       quorum-examples-net:
         ipv4_address: 172.16.239.12
+    logging:
+      options:
+        max-size: 50m
   txmanager2:
     << : *tx-manager-def
     hostname: txmanager2
@@ -300,6 +306,9 @@ services:
     networks:
       quorum-examples-net:
         ipv4_address: 172.16.239.13
+    logging:
+      options:
+        max-size: 50m
   txmanager3:
     << : *tx-manager-def
     hostname: txmanager3
